@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Domain", "0-Domain", "{E74F3B52-D38F-4982-960E-40FEFBCCAACD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Shared", "1-Shared", "{B338A5DB-64AF-416F-B7CB-417F76056FFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Testes", "2-Testes", "{6155BF69-89B9-4120-A5CE-C13A5F0F31CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentContext.Domain", "PaymentContext.Domain\PaymentContext.Domain.csproj", "{3D47F834-99D2-4AB0-904A-9B5C8937F2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentContext.Shared", "PaymentContext.Shared\PaymentContext.Shared.csproj", "{63F23C7F-221E-4DCA-879D-6C54C86F2960}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D47F834-99D2-4AB0-904A-9B5C8937F2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D47F834-99D2-4AB0-904A-9B5C8937F2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D47F834-99D2-4AB0-904A-9B5C8937F2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D47F834-99D2-4AB0-904A-9B5C8937F2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F23C7F-221E-4DCA-879D-6C54C86F2960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F23C7F-221E-4DCA-879D-6C54C86F2960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F23C7F-221E-4DCA-879D-6C54C86F2960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F23C7F-221E-4DCA-879D-6C54C86F2960}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D47F834-99D2-4AB0-904A-9B5C8937F2B6} = {E74F3B52-D38F-4982-960E-40FEFBCCAACD}
+		{63F23C7F-221E-4DCA-879D-6C54C86F2960} = {B338A5DB-64AF-416F-B7CB-417F76056FFE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5633C1E6-25E1-44D2-A99D-7517D36AA322}
+	EndGlobalSection
+EndGlobal
